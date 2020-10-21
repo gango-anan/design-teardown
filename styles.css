@@ -5,10 +5,9 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* html {
-  width: 100vh;
-  height: 100vh;
-} */
+html {
+  max-width: 1440px;
+} 
 
 body {
   width: 100%;
@@ -30,15 +29,232 @@ body {
 
 .main-content {
   grid-area: main-area;
+  width: 100%;
+}
+
+.featured-article {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 300px);
+  grid-gap: 10px;
+  grid-template-areas:
+    "article1 article2"
+    "article3 article4";
+}
+
+.featured-article_1 {
+  grid-area: article1;
+  background-color: gray;
+}
+
+.featured-article_2 {
+  grid-area: article2;
+  background-color: lightgray;
+}
+
+.featured-article_3 {
+  grid-area: article3;
+  background-color: gray;
+}
+
+.featured-article_4 {
+  grid-area: article4;
+  background-color: lightgray;
+}
+
+.about-smasshing-membership {
+  background-color: gray;
+  height: 300px;
+  margin: 10px 0;
+}
+
+.about-smashing-membership_button {
+  background-color: rgb(17, 15, 15);
+  color: white;
+}
+
+.latest-posts {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(5, 300px);
+  grid-gap: 5px;
+  grid-template-areas:
+    "latest_post latest_post latest_post" 
+    "post1 post2 post3"
+    "post4 post5 post5"
+    "post6 post7 post8"
+    "post9 post-tv post-tv"
+}
+
+.latest-posts_heading {
+  grid-area: latest_post;
+  background-color: gray;
+  margin: 10px 0;
+}
+
+.latest-post_article_1 {
+  grid-area: post1;
+  background-color: gray;
+}
+
+.latest-post_article_2 {
+  grid-area: post2;
+  background-color: gray;
+}
+
+.latest-post_article_3 {
+  grid-area: post3;
+  background-color: gray;
+}
+
+.our-friends {
+  grid-area: post4;
+  background-color: gray;
+}
+
+.smashing-members {
+  grid-area: post5;
+  background-color: gray;
+}
+
+.latest-post_article_4 {
+  grid-area: post6;
+  background-color: gray;
+}
+
+.latest-post_article_5 {
+  grid-area: post7;
+  background-color: gray;
+}
+
+.latest-post_article_6 {
+  grid-area: post8;
+  background-color: gray;
+}
+
+.latest-post_article_7 {
+  grid-area: post9;
+  background-color: gray;
+}
+
+.article-smashing_tv {
+  grid-area: post-tv;
+  text-align: center;
+  background-color: gray;
+  height: 300px;
+}
+
+.latest-articles-p {
+  background-color: gray;
+  margin: 50px 0;
+}
+
+.shipping-now {
+  background-color: gray;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.community-links {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(4, 300px);
+  grid-gap: 5px;
+  grid-template-areas: 
+    "pow pow"
+    "com-link1 com-link2"
+    "com-link3 com-link4"
+    "com-link5 com-link6"
+}
+
+.person-of-the-week {
+  grid-area: pow;
+  background-color: gray;
+}
+
+.community-links-article_1 {
+  grid-area: com-link1;
+  background-color: gray;
+}
+
+.community-links-article_2 {
+  grid-area: com-link2;
+  background-color: gray;
+}
+
+.community-links-article_3 {
+  grid-area: com-link3;
+  background-color: gray;
+}
+
+.community-links-article_4 {
+  grid-area: com-link4;
+  background-color: gray;
+}
+
+.community-links-article_5 {
+  grid-area: com-link5;
+  background-color: gray;
+}
+
+.community-links-article_6 {
+  grid-area: com-link6;
+  background-color: gray;
+}
+
+.more-links-twitter {
+  margin: 10px 0;
+  background-color: gray;
+}
+
+.featured-smashing-books {
+  margin: 10px 0;
+  background-color: gray;
+  height: 300px;
+}
+
+.our-guides {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 300px 500px;
+  grid-gap: 5px;
+  grid-template-areas: 
+    "guide1 guide2"
+    "guide3 guide4";
+}
+
+.our-guides_1 {
+  grid-area: guide1;
+  background-color: gray;
+}
+
+.our-guides_2 {
+  grid-area: guide2;
+  background-color: gray;
+}
+
+.our-guides_3 {
+  grid-area: guide3;
+  background-color: gray;
+}
+
+.email-newsletter {
+  grid-area: guide4;
+  background-color: gray;
+}
+
+.see-all-guides {
+  margin: 10px 0;
+  background-color: gray;
 }
 
 .main-footer {
   grid-area: footer-area;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 50px;
   padding-bottom: 100px;
   background-color: gray;
-  /* text-align: center; */
 }
 
 .footer-nav {
