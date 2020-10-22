@@ -21,11 +21,79 @@ body {
 }
 
 .main-header {
-  grid-area: header-area;
+  background-color: bisque;
+  display:grid;
+  grid-template-columns: 15% auto 25%;
+  grid-template-rows:100px;
+  grid-gap: 10px;
+  grid-template-areas: 
+  "logo nav-bar search-bar";
+}
+.logo{ 
+align-items: center;
+display: flex;
+justify-content: center;
+grid-area: logo;
+background-color: grey;
+}
+.logo a{
+  text-decoration: none;
+}
+.nav-bar{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.more{
+  padding: 10px;
+  background-color: grey;
+}
+
+.nav-bar  li {
+font-family: sans-serif;
+font-size: 25px;
+border-radius: 10px;
+text-align: center;
+display: inline;
+align-content: center;
+flex-direction: row;
+grid-area: nav-bar;
+//background-color: brown;
+}
+.nav-bar ul a{
+  margin-right:10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  color:white;
+  text-decoration: none;
+  //align-content: center;
+}
+.nav-bar a:hover {
+  padding: 10px;
+  background-color: brown;
+}
+input::placeholder{
+  color:black;
+}
+
+.search-bar{
+  display: flex;
+  justify-content: center;
+  grid-area: search-bar;
+  background-color: cyan;
+}
+.search-bar_area {
+  margin: auto;
+  width:80%;
+  height:50%;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align-last: center;
 }
 
 .fontAwesome {
   font-family: 'Helvetica', FontAwesome, sans-serif;
+
 }
 
 .main-content {
