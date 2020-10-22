@@ -24,14 +24,14 @@ body {
   grid-area: header-area;
   background-color: bisque;
   height: 100px;
-  /* display:grid;
+  display:grid;
   grid-template-columns: 15% auto 25%;
   grid-template-rows:100px;
   grid-gap: 10px;
   grid-template-areas: 
-  "logo nav-bar search-bar"; */
+  "logo nav-bar search-bar"; 
 }
-/* .logo{ 
+ .logo{ 
 align-items: center;
 display: flex;
 justify-content: center;
@@ -548,6 +548,7 @@ input::placeholder{
   text-align: center;
  
 }
+
 
 .footer-nav_links li {
   display: inline;
