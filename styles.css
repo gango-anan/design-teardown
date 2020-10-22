@@ -12,6 +12,7 @@ html {
 body {
   width: 100%;
   display: grid;
+  margin: auto;
   grid-template-rows: repeat(3, auto);
   grid-template-areas: 
     "header-area"
