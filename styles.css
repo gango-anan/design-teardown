@@ -104,7 +104,6 @@ input::placeholder{
 
 .main-title {
   position: absolute;
-  background-color: green;
   text-align: center;
   width: 30%;
   top: 50px;
@@ -415,103 +414,209 @@ input::placeholder{
   height: 600px;
 }
 
-.latest-articles-p {
-  background-color: gray;
+.latest-articles, .more-links-twitter {
+  text-align: center;
+}
+
+.latest-articles-p, .more-links-twitter-p {
+  display: inline-block;
+  background-color: rgba(46, 43, 43, 0.9);
+  padding: 10px;
   margin: 50px 0;
+  color: whitesmoke;
 }
 
 .shipping-now {
   background-color: gray;
-  height: 300px;
   margin-bottom: 10px;
+  color: whitesmoke;
+  text-align: center;
+  padding: 60px;
+}
+
+.new-book {
+  font-size: 24px;
+}
+
+.click {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.shipping-now button, .jump-to-table_buttom {
+  font-size: 24px;
+  color: whitesmoke;
+  background-color: rgba(43, 40, 40, 0.8);
+  border: 0;
+  border-radius: 10px;
+  padding: 16px 32px;
+  margin: 50px 0;
+}
+
+.shipping-now_img {
+  display: inline-block;
+  padding: 100px;
+  background-color: sandybrown;
+  border-radius: 10px;
 }
 
 .community-links {
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: repeat(4, 300px);
-  grid-gap: 5px;
+  grid-template-rows: repeat(4, auto);
   grid-template-areas: 
     "pow pow"
     "com-link1 com-link2"
     "com-link3 com-link4"
-    "com-link5 com-link6"
+    "com-link5 com-link6";
 }
 
 .person-of-the-week {
   grid-area: pow;
-  background-color: gray;
+  background-color: rgba(0, 0, 0,0.7);
+  padding: 60px;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.person-of-the-week_img {
+  padding: 90px;
+  background-color: sandybrown;
+  float: left;
+  border-radius: 10px;
+  margin-right: 24px;
 }
 
 .community-links-article_1 {
   grid-area: com-link1;
   background-color: gray;
+  padding: 32px;
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+.community-links_imgs {
+  padding: 80px;
+  background-color: sandybrown;
+  float: left;
+  border-radius: 10px;
+  margin-right: 24px;
 }
 
 .community-links-article_2 {
   grid-area: com-link2;
   background-color: gray;
+  padding: 32px;
 }
 
 .community-links-article_3 {
   grid-area: com-link3;
   background-color: gray;
+  padding: 32px;
 }
 
 .community-links-article_4 {
   grid-area: com-link4;
   background-color: gray;
+  padding: 32px;
 }
 
 .community-links-article_5 {
   grid-area: com-link5;
   background-color: gray;
+  padding: 32px;
 }
 
 .community-links-article_6 {
   grid-area: com-link6;
   background-color: gray;
+  padding: 32px;
 }
 
 .more-links-twitter {
-  margin: 10px 0;
-  background-color: gray;
+  margin: auto;
 }
 
 .featured-smashing-books {
   margin: 10px 0;
   background-color: gray;
-  height: 300px;
+  color: whitesmoke;
+  padding: 50px;
+}
+
+.featured-smashing-books_details {
+  float: left;
+  width: 60%;
+  font-size: 20px;
+}
+
+.featured-smashing-books_img {
+  padding: 100px;
+  background-color: sandybrown;
+  float: right;
+  border-radius: 10px;
+  margin-right: 24px;
+}
+
+.featured-smashing-books::after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+  visibility: hidden;
 }
 
 .our-guides {
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: 300px 500px;
-  grid-gap: 5px;
+  grid-template-rows: repeat(2, auto);
   grid-template-areas: 
     "guide1 guide2"
     "guide3 guide4";
+  font-size: 24px;
+}
+
+.our-guides_details button {
+  font-size: 24px;
+  font-weight: 500;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0,0.5);
+  padding: 16px 32px;
+  border: 0;
+  border-radius: 10px;
 }
 
 .our-guides_1 {
   grid-area: guide1;
   background-color: gray;
+  padding: 32px;
+  border-radius: 20px;
+}
+
+.our-guides_details {
+  text-align: left;
+  color: whitesmoke;
 }
 
 .our-guides_2 {
   grid-area: guide2;
   background-color: gray;
+  padding: 32px;
+  border-radius: 20px;
 }
 
 .our-guides_3 {
   grid-area: guide3;
   background-color: gray;
+  padding: 32px;
+  border-radius: 20px;
 }
 
 .email-newsletter {
   grid-area: guide4;
   background-color: gray;
+  padding: 32px;
+  border-radius: 20px;
 }
 
 .see-all-guides {
