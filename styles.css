@@ -12,6 +12,7 @@ html {
 body {
   width: 100%;
   display: grid;
+  margin: auto;
   grid-template-rows: repeat(3, auto);
   grid-template-areas: 
     "header-area"
@@ -20,15 +21,17 @@ body {
 }
 
 .main-header {
+  grid-area: header-area;
   background-color: bisque;
-  display:grid;
+  height: 100px;
+  /* display:grid;
   grid-template-columns: 15% auto 25%;
   grid-template-rows:100px;
   grid-gap: 10px;
   grid-template-areas: 
-  "logo nav-bar search-bar";
+  "logo nav-bar search-bar"; */
 }
-.logo{ 
+/* .logo{ 
 align-items: center;
 display: flex;
 justify-content: center;
@@ -57,7 +60,6 @@ display: inline;
 align-content: center;
 flex-direction: row;
 grid-area: nav-bar;
-//background-color: brown;
 }
 .nav-bar ul a{
   margin-right:10px;
@@ -65,7 +67,6 @@ grid-area: nav-bar;
   border-radius: 10px;
   color:white;
   text-decoration: none;
-  //align-content: center;
 }
 .nav-bar a:hover {
   padding: 10px;
@@ -88,7 +89,7 @@ input::placeholder{
   border-radius: 10px;
   font-size: 20px;
   text-align-last: center;
-}
+} */
 
 .fontAwesome {
   font-family: 'Helvetica', FontAwesome, sans-serif;
@@ -98,119 +99,320 @@ input::placeholder{
 .main-content {
   grid-area: main-area;
   width: 100%;
+  position: relative;
 }
+
+.main-title {
+  position: absolute;
+  background-color: green;
+  text-align: center;
+  width: 30%;
+  top: 50px;
+  left: 35%;
+}
+
+.main-title h1 {
+  background-color: white;
+  padding: 0 20px 20px 20px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.seriously-red {
+  background-color: hotpink;
+  width: 18%;
+  position: absolute;
+  top: 50px;
+  right: 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.seriously-red div {
+  background-color: lawngreen;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.seriously-red h3 {
+  background-color: gray;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
 
 .featured-article {
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: repeat(2, 300px);
-  grid-gap: 10px;
+  grid-template-rows: repeat(2, 700px);
+  /* grid-gap: 10px; */
   grid-template-areas:
     "article1 article2"
     "article3 article4";
 }
 
+.author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  background-color: rosybrown;
+  margin-left: 60px;
+  margin-top: 250px;
+  font-weight: 500;
+  color: white;
+  padding-right: 10px;
+}
+
+.author-img {
+  padding: 60px;
+  background-color: royalblue;
+  border-radius: 15px;
+}
+
+.article-details {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+  margin-left: 60px;
+  margin-top: 20px;
+  width: 60%;
+}
+
+.comments {
+  display: inline-block;
+  margin-left: 60px;
+  color: white;
+  background-color: teal;
+  margin-top: 15px;
+}
+
+.smashing-newsletters {
+  margin-left: 60px;
+  margin-top: 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.next {
+  margin: 40px 0 20px 60px;
+  padding: 2px;
+  background-color: tomato;
+  display: inline-block;
+}
+.next-arrow {
+  color: white;
+  font-size: 40px;
+}
+
 .featured-article_1 {
   grid-area: article1;
-  background-color: gray;
+  background-color: rgba(0, 0, 0,0.6);
 }
 
 .featured-article_2 {
   grid-area: article2;
-  background-color: lightgray;
+  background-color: rgba(0, 0, 0,0.4);
 }
 
 .featured-article_3 {
   grid-area: article3;
-  background-color: gray;
+  background-color: rgba(0, 0, 0,0.7);
 }
 
 .featured-article_4 {
   grid-area: article4;
-  background-color: lightgray;
+  background-color: rgba(0, 0, 0,0.5);
 }
 
 .about-smasshing-membership {
-  background-color: gray;
-  height: 300px;
-  margin: 10px 0;
+  background-color: rgba(0, 0, 0,0.8);
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-smashing-membership_details {
+  width: 50%;
+  margin-left: 100px;
+  padding-top: 40px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.about-smashing-membership_details a {
+  color: white;
+}
+
+.about-smashing-membership_details ul {
+  margin: 30px 60px;
 }
 
 .about-smashing-membership_button {
-  background-color: rgb(17, 15, 15);
+  background-color: rgba(46, 43, 43, 0.9);
+  padding: 15px;
   color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.about-smasshing-membership_img {
+  padding: 80px;
+  background-color: yellow;
+  margin-right: 200px;
+  border-radius: 5px;
+}
+
+.about-smasshing-membership_img::after {
+  content: "";
+  height: 0;
+  clear: both;
+  display: block;
+  visibility: hidden;
 }
 
 .latest-posts {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 33%);
-  grid-template-rows: repeat(5, 300px);
-  grid-gap: 5px;
+  grid-template-rows: repeat(4, auto);
   grid-template-areas:
-    "latest_post latest_post latest_post" 
     "post1 post2 post3"
     "post4 post5 post5"
     "post6 post7 post8"
     "post9 post-tv post-tv"
 }
 
-.latest-posts_heading {
-  grid-area: latest_post;
-  background-color: gray;
-  margin: 10px 0;
-}
-
 .latest-post_article_1 {
   grid-area: post1;
-  background-color: gray;
+  
+}
+
+.post_details {
+  width: 80%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.next-post {
+  padding: 30px;
+  background-color: rgba(46, 43, 43, 0.9);
+  display: inline-block;
 }
 
 .latest-post_article_2 {
   grid-area: post2;
-  background-color: gray;
 }
 
 .latest-post_article_3 {
   grid-area: post3;
-  background-color: gray;
 }
 
 .our-friends {
   grid-area: post4;
-  background-color: gray;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.our-friends_details {
+  width: 75%;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0,0.1);
+  border-radius: 5px;
+  margin: 20px auto;
+  font-size: 16px;
+}
+
+.our-friends_details button {
+  padding: 10px;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(0, 0, 0,0.6);
+  border: 0;
+  border-radius: 5px;
+}
+
+.our-friends_details p, button {
+  margin: 10px;
 }
 
 .smashing-members {
   grid-area: post5;
-  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.smashing-members_details {
+  width: 65%;
+  margin: auto;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.smashing-members_details h1, button,p {
+  margin: 20px 0;
+}
+
+.smashing-members_img {
+  padding: 60px;
+  display: inline-block;
+  background-color: turquoise;
+  border-radius: 10px;
+}
+
+.smashing-members_details {
+  font-weight: 700;
+}
+
+.smashing-members_details button {
+  font-size: 18px;
+  color: whitesmoke;
+  padding: 16px 32px;
+  border: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0,0.5);
 }
 
 .latest-post_article_4 {
   grid-area: post6;
-  background-color: gray;
 }
 
 .latest-post_article_5 {
   grid-area: post7;
-  background-color: gray;
 }
 
 .latest-post_article_6 {
   grid-area: post8;
-  background-color: gray;
 }
 
 .latest-post_article_7 {
   grid-area: post9;
-  background-color: gray;
 }
 
 .article-smashing_tv {
   grid-area: post-tv;
-  text-align: center;
-  background-color: gray;
-  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-smashing_tv-smashing-members {
+  width: 95%;
+  background-color: rgba(46, 43, 43, 0.9);
+  border-radius: 15px;
+  margin-top: 50px;
+  height: 600px;
 }
 
 .latest-articles-p {
