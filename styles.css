@@ -23,14 +23,14 @@ body {
   grid-area: header-area;
   background-color: bisque;
   height: 100px;
-  /* display:grid;
+  display:grid;
   grid-template-columns: 15% auto 25%;
   grid-template-rows:100px;
   grid-gap: 10px;
   grid-template-areas: 
-  "logo nav-bar search-bar"; */
+  "logo nav-bar search-bar"; 
 }
-/* .logo{ 
+ .logo{ 
 align-items: center;
 display: flex;
 justify-content: center;
@@ -650,18 +650,29 @@ input::placeholder{
 }
 
 .see-all-guides {
+  text-align: center;
   margin: 10px 0;
-  background-color: gray;
+  //background-color: gray;
+}
+.see-all-guides a{
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  border-bottom: #EA215A 0.35em solid;
 }
 
-.main-footer {
+.main-footer  {
   grid-area: footer-area;
   width: 100%;
   margin-top: 50px;
   padding-bottom: 100px;
   background-color: gray;
 }
-
+.main-footer h4{
+  font-family: 'Times New Roman', Times, serif;
+  padding-top:50px;
+  text-align: center;
+  padding-bottom: 50px;
+}
 .footer-nav {
   max-width: 1440px;
 }
@@ -670,21 +681,60 @@ input::placeholder{
   width: 95%;
   margin: auto;
   text-align: center;
+ 
 }
+
 
 .footer-nav_links li {
-  display: inline-block;
+  display: inline;
   font-size: 30px;
+  margin:5px;
+  
 }
 
-.other-footer_contents p {
-  margin: 50px;
+.footer-nav_links a{
+text-decoration: none;
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+}
+.italic {
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.other-footer_contents  {
+   font-family:'Times New Roman', Times, serif;
+   text-align: center;
+   margin-top: 50px;
+}
+.other-footer_contents p{
+  font-family: 'Times New Roman', Times, serif;
+  line-height:25px;
 }
 
 .other-footer__links {
-  width: 60%;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .other-footer__links li{
+  margin-bottom: 20px;
+  margin-left: 10px;
   display: inline-block;
+}
+.other-footer__links2 li{
+  margin-left: 10px;
+  display: inline-block;
+}
+.other-footer__links2  {
+  display: inline-block;
+  text-align: center;
+}
+.other-footer__links a{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.other-footer__links2 a{
+  font-family: 'Times New Roman', Times, serif;
 }
