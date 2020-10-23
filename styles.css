@@ -58,6 +58,14 @@ a {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.nav-bar ul a {
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 0;
+  border-radius: 16px;
+  text-decoration: none;
+}
+
 .nav-bar a:hover {
   padding: 10px;
   background-color: brown;
@@ -72,14 +80,6 @@ a {
   align-content: center;
   flex-direction: row;
   grid-area: nav-bar;
-}
-
-.nav-bar ul a {
-  margin-right: 10px;
-  margin-left: 10px;
-  border: 0;
-  border-radius: 16px;
-  text-decoration: none;
 }
 
 input::placeholder {
