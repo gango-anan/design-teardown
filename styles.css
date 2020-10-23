@@ -7,7 +7,7 @@
 
 html {
   max-width: 1440px;
-} 
+}
 
 body {
   width: 100%;
@@ -21,17 +21,17 @@ body {
 
 .main-header {
   grid-area: header-area;
-  background-color: rgba(0, 0, 0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   height: 100px;
-  display:grid;
+  display: grid;
   grid-template-columns: 15% auto 25%;
-  grid-template-rows:100px;
+  grid-template-rows: 100px;
   grid-gap: 10px;
-  grid-template-areas: 
+  grid-template-areas:
   "logo nav-bar search-bar";
 }
 
-.logo { 
+.logo {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -53,10 +53,10 @@ body {
 
 .more {
   padding: 10px;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
-.nav-bar  li {
+.nav-bar li {
   font-family: sans-serif;
   font-size: 25px;
   border-radius: 10px;
@@ -68,7 +68,7 @@ body {
 }
 
 .nav-bar ul a {
-  margin-right:10px;
+  margin-right: 10px;
   margin-left: 10px;
   border: 0;
   border-radius: 16px;
@@ -82,7 +82,7 @@ body {
 }
 
 input::placeholder {
-  color:black;
+  color: black;
 }
 
 .search-bar {
@@ -93,8 +93,8 @@ input::placeholder {
 
 .search-bar_area {
   margin: auto;
-  width:80%;
-  height:50%;
+  width: 80%;
+  height: 50%;
   border-radius: 8px;
   font-size: 20px;
   text-align-last: center;
@@ -189,7 +189,7 @@ input::placeholder {
   display: inline-block;
   margin-left: 60px;
   color: white;
-  background-color: rgba(0, 0, 0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   margin-top: 15px;
   padding: 8px;
 }
@@ -215,17 +215,17 @@ input::placeholder {
 
 .featured-article_1 {
   grid-area: article1;
-  background-color: rgba(0, 0, 0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .featured-article_2 {
   grid-area: article2;
-  background-color: rgba(0, 0, 0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .featured-article_3 {
   grid-area: article3;
-  background-color: rgba(0, 0, 0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .author_3-4 {
@@ -242,11 +242,11 @@ input::placeholder {
 
 .featured-article_4 {
   grid-area: article4;
-  background-color: rgba(0, 0, 0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .about-smasshing-membership {
-  background-color: rgba(0, 0, 0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   height: 400px;
   display: flex;
   justify-content: space-between;
@@ -342,7 +342,7 @@ input::placeholder {
   width: 75%;
   padding: 20px;
   text-align: center;
-  background-color: rgba(0, 0, 0,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   margin: 20px auto;
   font-size: 16px;
@@ -357,7 +357,8 @@ input::placeholder {
   border-radius: 5px;
 }
 
-.our-friends_details p, button {
+.our-friends_details p, 
+.our-friends_details button {
   margin: 10px;
 }
 
@@ -373,6 +374,7 @@ input::placeholder {
   margin: auto;
   color: whitesmoke;
   text-align: center;
+  font-weight: 700;
 }
 
 .smashing-members_details h1, button,p {
@@ -386,17 +388,13 @@ input::placeholder {
   border-radius: 10px;
 }
 
-.smashing-members_details {
-  font-weight: 700;
-}
-
 .smashing-members_details button {
   font-size: 18px;
   color: whitesmoke;
   padding: 16px 32px;
   border: 0;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .latest-post_article_4 {
@@ -430,11 +428,13 @@ input::placeholder {
   height: 600px;
 }
 
-.latest-articles, .more-links-twitter {
+.latest-articles,
+.more-links-twitter {
   text-align: center;
 }
 
-.latest-articles-p, .more-links-twitter-p {
+.latest-articles-p, 
+.more-links-twitter-p {
   display: inline-block;
   background-color: rgba(46, 43, 43, 0.9);
   padding: 10px;
@@ -443,7 +443,7 @@ input::placeholder {
 }
 
 .shipping-now {
-  background-color: rgba(0, 0, 0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   color: whitesmoke;
   text-align: center;
   padding: 60px;
@@ -458,7 +458,8 @@ input::placeholder {
   font-weight: 600;
 }
 
-.shipping-now button, .jump-to-table_buttom {
+.shipping-now button,
+.jump-to-table_buttom {
   font-size: 24px;
   color: whitesmoke;
   background-color: rgba(43, 40, 40, 0.8);
@@ -488,7 +489,7 @@ input::placeholder {
 
 .person-of-the-week {
   grid-area: pow;
-  background-color: rgba(0, 0, 0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 60px;
   color: whitesmoke;
   font-size: 18px;
