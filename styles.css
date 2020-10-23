@@ -360,10 +360,6 @@ input::placeholder{
   text-align: center;
 }
 
-.smashing-members_details h1, button,p {
-  margin: 20px 0;
-}
-
 .smashing-members_img {
   padding: 60px;
   display: inline-block;
@@ -515,9 +511,8 @@ input::placeholder{
 }
 
 .see-all-guides {
-  text-align: center;
-  margin: 10px 0;
-  //background-color: gray;
+  padding-top: 30px;
+  text-align:center;
 }
 .see-all-guides a{
   text-decoration: none;
@@ -546,15 +541,14 @@ input::placeholder{
   width: 95%;
   margin: auto;
   text-align: center;
- 
 }
-
+.footer-nav_links li ::before {
+  content: '•';
+}
 
 .footer-nav_links li {
   display: inline;
   font-size: 30px;
-  margin:5px;
-  
 }
 
 .footer-nav_links a{
