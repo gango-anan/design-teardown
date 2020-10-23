@@ -724,6 +724,7 @@ input::placeholder {
 }
 
 .other-footer_contents p {
+  font-family: 'Times New Roman', Times, serif;
   line-height: 25px;
 }
 
@@ -744,9 +745,9 @@ input::placeholder {
 }
 
 .other-footer__links2 {
-  display: inline-block;
   text-align: center;
 }
+
 
 .nav-bar a:hover {
   padding: 10px;
