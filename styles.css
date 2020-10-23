@@ -12,7 +12,6 @@ html {
 body {
   width: 100%;
   display: grid;
-  margin: auto;
   grid-template-rows: repeat(3, auto);
   grid-template-areas: 
     "header-area"
@@ -118,8 +117,7 @@ input::placeholder{
 }
 
 .seriously-red {
-  background-color: hotpink;
-  width: 18%;
+  width: 20%;
   position: absolute;
   top: 50px;
   right: 4%;
@@ -130,7 +128,7 @@ input::placeholder{
 }
 
 .seriously-red div {
-  background-color: lawngreen;
+  background-color: sandybrown;
   padding: 25px;
   border-radius: 10px;
 }
@@ -145,8 +143,7 @@ input::placeholder{
 .featured-article {
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: repeat(2, 700px);
-  /* grid-gap: 10px; */
+  grid-template-rows: repeat(2, auto);
   grid-template-areas:
     "article1 article2"
     "article3 article4";
@@ -156,8 +153,7 @@ input::placeholder{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 45%;
-  background-color: rosybrown;
+  width: 50%;
   margin-left: 60px;
   margin-top: 250px;
   font-weight: 500;
@@ -167,7 +163,7 @@ input::placeholder{
 
 .author-img {
   padding: 60px;
-  background-color: royalblue;
+  background-color: sandybrown;
   border-radius: 15px;
 }
 
@@ -185,8 +181,9 @@ input::placeholder{
   display: inline-block;
   margin-left: 60px;
   color: white;
-  background-color: teal;
+  background-color: rgba(0, 0, 0,0.4);
   margin-top: 15px;
+  padding: 8px;
 }
 
 .smashing-newsletters {
@@ -200,9 +197,9 @@ input::placeholder{
 .next {
   margin: 40px 0 20px 60px;
   padding: 2px;
-  background-color: tomato;
   display: inline-block;
 }
+
 .next-arrow {
   color: white;
   font-size: 40px;
@@ -265,7 +262,7 @@ input::placeholder{
 
 .about-smasshing-membership_img {
   padding: 80px;
-  background-color: yellow;
+  background-color: sandybrown;
   margin-right: 200px;
   border-radius: 5px;
 }
@@ -366,7 +363,7 @@ input::placeholder{
 .smashing-members_img {
   padding: 60px;
   display: inline-block;
-  background-color: turquoise;
+  background-color: sandybrown;
   border-radius: 10px;
 }
 
@@ -574,6 +571,17 @@ input::placeholder{
     "guide1 guide2"
     "guide3 guide4";
   font-size: 24px;
+  padding: 32px;
+}
+
+.our-guides_details {
+  width: 95%;
+  text-align: left;
+  color: whitesmoke;
+  background-color: gray;
+  border-radius: 20px;
+  padding: 32px;
+  margin: 32px auto;
 }
 
 .our-guides_details button {
@@ -588,35 +596,57 @@ input::placeholder{
 
 .our-guides_1 {
   grid-area: guide1;
-  background-color: gray;
-  padding: 32px;
-  border-radius: 20px;
-}
-
-.our-guides_details {
-  text-align: left;
-  color: whitesmoke;
 }
 
 .our-guides_2 {
   grid-area: guide2;
-  background-color: gray;
-  padding: 32px;
-  border-radius: 20px;
 }
 
 .our-guides_3 {
   grid-area: guide3;
-  background-color: gray;
-  padding: 32px;
-  border-radius: 20px;
 }
 
 .email-newsletter {
   grid-area: guide4;
-  background-color: gray;
+}
+
+.email-newsletter_details {
+  width: 95%;
   padding: 32px;
-  border-radius: 20px;
+  margin: 32px auto;
+  background-color: rgba(43, 40, 40, 0.8);
+  border-radius: 15px;
+  color: whitesmoke;
+}
+
+.email-newsletter_img {
+  padding: 150px;
+  background-color: sandybrown;
+  border-radius: 15px;
+  margin-bottom: 32px;
+}
+
+.email-capture_area {
+  background-color: rgba(0, 0, 0,0.4);
+  padding: 16px;
+  margin: 32px 0;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.email-newsletter_details p {
+  font-size: 20px;
+}
+
+.email-newsletter__p {
+  width: 80%;
+  background-color: rgba(128, 118, 118, 0.6);
+  text-align: center;
+  padding: 4px;
+  margin: auto;
+  border-radius: 15px;
 }
 
 .see-all-guides {
