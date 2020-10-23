@@ -21,7 +21,7 @@ body {
 
 .main-header {
   grid-area: header-area;
-  background-color: bisque;
+  background-color: rgba(0, 0, 0,0.5);
   height: 100px;
   display:grid;
   grid-template-columns: 15% auto 25%;
@@ -35,7 +35,8 @@ align-items: center;
 display: flex;
 justify-content: center;
 grid-area: logo;
-background-color: grey;
+border: 1px solid black;
+border-radius: 8px;
 }
 .logo a{
   text-decoration: none;
@@ -47,7 +48,7 @@ background-color: grey;
 }
 .more{
   padding: 10px;
-  background-color: grey;
+  background-color: rgba(0,0,0,0.3);
 }
 
 .nav-bar  li {
@@ -79,7 +80,6 @@ input::placeholder{
   display: flex;
   justify-content: center;
   grid-area: search-bar;
-  background-color: cyan;
 }
 .search-bar_area {
   margin: auto;
@@ -88,11 +88,10 @@ input::placeholder{
   border-radius: 10px;
   font-size: 20px;
   text-align-last: center;
-} */
+}
 
 .fontAwesome {
   font-family: 'Helvetica', FontAwesome, sans-serif;
-
 }
 
 .main-content {
