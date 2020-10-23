@@ -3,7 +3,7 @@
 
 This repository contains a project which consists of designing a heatmap of Smashing Magazine home page using variant gray scales.
 
-## Below is a screenshop of the completed page
+## Below is a screenshot of the completed page
 
 ![screenshot](./images/screenshot.png)
 
@@ -17,7 +17,7 @@ This repository contains a project which consists of designing a heatmap of Smas
 - visual Studio IDE 
 - linters
 
-## apple.com home page Link
+## Heatmap of the Smashing Magazine home page Link
 
 [Heatmap of Smashing Magazine home page Link](https://gango-anan.github.io/design-teardown/.)
 
