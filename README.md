@@ -17,7 +17,7 @@ This repository contains a project which consists of designing a heatmap of Smas
 - visual Studio IDE 
 - linters
 
-## Heatmap of the Smashing Magazine home page Link
+## Below is the Live link to Heatmap of the Smashing Magazine home page
 
 [Heatmap of Smashing Magazine home page Link](https://gango-anan.github.io/design-teardown/.)
 
