@@ -662,8 +662,13 @@ input::placeholder {
 }
 
 .see-all-guides {
-  text-align: center;
-  margin: 10px 0;
+  padding-top: 30px;
+  text-align:center;
+}
+.see-all-guides a{
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  border-bottom: #EA215A 0.35em solid;
 }
 
 .main-footer {
@@ -687,14 +692,17 @@ input::placeholder {
   margin: auto;
   text-align: center;
 }
-
-.footer-nav_links li {
-  display: inline;
-  font-size: 30px;
-  margin: 5px;
+.footer-nav_links li ::before {
+  content: '•';
 }
 
-.footer-nav_links-a {
+.footer-nav_links li {
+  margin-left: 10px;
+  display: inline;
+  font-size: 30px;
+}
+
+.footer-nav_links a {
   text-decoration: none;
   font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
