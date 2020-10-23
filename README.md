@@ -1,70 +1,62 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Design-teardown 
+## Heatmap of Smashing Magazine Home page
 
+This repository contains a project which consists of designing a heatmap of Smashing Magazine home page using variant gray scales.
 
-# Form Clone Page - Microverse Project
+## Below is a screenshot of the completed page
 
-> This is our second project for Microverse.
-
-![screenshot](./assets/screenshot.png)
+![screenshot](./images/screenshot.png)
 
 
 ## Built With
 
-- HTML & CSS
-- Visual Studio, Git & GitHub
+- HTML
+- CSS
+- ionic icons
+- Awesomefonts Icons
+- visual Studio IDE 
+- linters
 
+## Below is the Live link to Heatmap of the Smashing Magazine home page
 
-## Live Demo
-
-[Live Demo Link](https://shahnaeem.github.io/microverse-form/)
-
+[Heatmap of Smashing Magazine home page Link](https://gango-anan.github.io/design-teardown/.)
 
 ## Getting Started
 
-Just download the code in your local machine and go to the dowloaded folder, search for the index.html file and open it in your favourite browser.
-
-### Prerequisites
-To run this project, you need a computer or a mobile devise with any operating system and a web browser.
-### Setup
-Just download the code.
-### Install
-Go to he downloaded folder and search for index.html file and open it in your favorite web browser.
-### Usage
-This projects diplays the videos.
-
+### To run this project:
+- Install a web browser of your choice prefferably Google chrome or mozilla firefox.
+- Launch your webserver and
+- Copy the project files to the webserver folder
+- Open your browser and launch the index.html file
+- Thank you.
 
 ## Authors
+👨🏻‍💻 **Galiwango Ananiya**
+- GitHub: [@gango-anan](https://github.com/gango-anan)
+- Twitter: [@gango_anan](https://twitter.com/gango_anan)
+- LinkedIn: [@galiwango-ananiya](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile)
+
 
 👨🏻‍💻 **Mohd Nayeem Shah**
-
 - GitHub: [@shahnaeem](https://github.com/shahnaeem)
 - Twitter: [@mohdnayeemshah1](https://twitter.com/MOHDNAYEEMSHAH1)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/mohd-nayeem-shah-97a590152)
-
-👩🏼‍💻 **Ana Paula Hübner**
-
-- GitHub: [@anapdh](https://github.com/anapdh)
-- Twitter: [@anapdh](https://twitter.com/anapdh)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ana-paula-hübner-7a9484181)
-
+- LinkedIn: [@mohd-nayeem-shah-97a590152](https://linkedin.com/in/mohd-nayeem-shah-97a590152)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/shahnaeem/microverse-form/issues).
+Feel free to check the [issues page](https://gango-anan.github.io/design-teardown/issues).
 
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-
 ## Acknowledgments
 
-- To carry out this project we used Microverse Study material, W3 Schools and Google.
-
+- To make this project a success a lot of sources were used especially google, youtube, css trick website, MDN reference and above all the positive reviews from our respective standup teams, we would like to thank all those who authored the articles we used and a big thank you to our stand up teams.
 
 ## 📝 License
 
-This project is [MIT](license.md/) licensed.
+This project is [MIT](https://github.com/gango-anan/design-teardown/blob/smashing-magazine-homepage/LICENSE) licensed.
