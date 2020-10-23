@@ -13,7 +13,7 @@ body {
   width: 100%;
   display: grid;
   grid-template-rows: repeat(3, auto);
-  grid-template-areas: 
+  grid-template-areas:
     "header-area"
     "main-area"
     "footer-area";
@@ -28,41 +28,46 @@ body {
   grid-template-rows:100px;
   grid-gap: 10px;
   grid-template-areas: 
-  "logo nav-bar search-bar"; 
+  "logo nav-bar search-bar";
 }
- .logo{ 
-align-items: center;
-display: flex;
-justify-content: center;
-grid-area: logo;
-border: 1px solid black;
-border-radius: 8px;
-margin-left: 16px
+
+.logo { 
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  grid-area: logo;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-left: 16px;
 }
-.logo a{
+
+.logo a {
   text-decoration: none;
 }
-.nav-bar{
+
+.nav-bar {
   align-items: center;
   display: flex;
   justify-content: center;
 }
-.more{
+
+.more {
   padding: 10px;
   background-color: rgba(0,0,0,0.3);
 }
 
 .nav-bar  li {
-font-family: sans-serif;
-font-size: 25px;
-border-radius: 10px;
-text-align: center;
-display: inline;
-align-content: center;
-flex-direction: row;
-grid-area: nav-bar;
+  font-family: sans-serif;
+  font-size: 25px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline;
+  align-content: center;
+  flex-direction: row;
+  grid-area: nav-bar;
 }
-.nav-bar ul a{
+
+.nav-bar ul a {
   margin-right:10px;
   margin-left: 10px;
   border: 0;
@@ -70,19 +75,22 @@ grid-area: nav-bar;
   color:white;
   text-decoration: none;
 }
+
 .nav-bar a:hover {
   padding: 10px;
   background-color: brown;
 }
-input::placeholder{
+
+input::placeholder {
   color:black;
 }
 
-.search-bar{
+.search-bar {
   display: flex;
   justify-content: center;
   grid-area: search-bar;
 }
+
 .search-bar_area {
   margin: auto;
   width:80%;
@@ -139,7 +147,6 @@ input::placeholder{
   padding: 5px 15px;
   border-radius: 10px;
 }
-
 
 .featured-article {
   display: grid;
@@ -297,12 +304,11 @@ input::placeholder{
     "post1 post2 post3"
     "post4 post5 post5"
     "post6 post7 post8"
-    "post9 post-tv post-tv"
+    "post9 post-tv post-tv";
 }
 
 .latest-post_article_1 {
   grid-area: post1;
-  
 }
 
 .post_details {
@@ -473,7 +479,7 @@ input::placeholder{
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(4, auto);
-  grid-template-areas: 
+  grid-template-areas:
     "pow pow"
     "com-link1 com-link2"
     "com-link3 com-link4"
@@ -579,7 +585,7 @@ input::placeholder{
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(2, auto);
-  grid-template-areas: 
+  grid-template-areas:
     "guide1 guide2"
     "guide3 guide4";
   font-size: 24px;
@@ -647,7 +653,6 @@ input::placeholder{
   justify-content: space-between;
 }
 
-
 .email-newsletter_details p {
   font-size: 20px;
 }
@@ -666,7 +671,7 @@ input::placeholder{
   margin: 10px 0;
 }
 
-.see-all-guides a{
+.see-all-guides a {
   text-decoration: none;
   font-family: 'Times New Roman', Times, serif;
   border-bottom: #EA215A 0.35em solid;
@@ -677,38 +682,39 @@ input::placeholder{
   width: 100%;
   margin-top: 50px;
   padding-bottom: 100px;
-  background-color: rgba(0, 0, 0,0.7)
+  background-color: rgba(0, 0, 0,0.7);
+  color: whitesmoke;
 }
-.main-footer h4{
+
+.main-footer h4 {
   font-family: 'Times New Roman', Times, serif;
   padding-top:50px;
   text-align: center;
   padding-bottom: 50px;
 }
-.footer-nav {
-  max-width: 1440px;
+
+.main-footer a {
+  color: whitesmoke;
 }
 
 .footer-nav_links {
   width: 95%;
   margin: auto;
   text-align: center;
- 
 }
-
 
 .footer-nav_links li {
   display: inline;
   font-size: 30px;
   margin:5px;
-  
 }
 
-.footer-nav_links a{
-text-decoration: none;
-font-family: 'Times New Roman', Times, serif;
-font-size: 25px;
+.footer-nav_links a {
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
 }
+
 .italic {
   font-family:'Times New Roman', Times, serif;
   font-style: italic;
@@ -720,7 +726,8 @@ font-size: 25px;
    text-align: center;
    margin-top: 50px;
 }
-.other-footer_contents p{
+
+.other-footer_contents p {
   font-family: 'Times New Roman', Times, serif;
   line-height:25px;
 }
@@ -730,7 +737,7 @@ font-size: 25px;
   text-align: center;
 }
 
-.other-footer__links li{
+.other-footer__links li {
   margin-bottom: 20px;
   margin-left: 10px;
   display: inline-block;
@@ -746,10 +753,6 @@ font-size: 25px;
   text-align: center;
 }
 
-.other-footer__links a {
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.other-footer__links2 a {
+.other-footer__links a, .other-footer__links2 a {
   font-family: 'Times New Roman', Times, serif;
 }
