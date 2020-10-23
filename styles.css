@@ -128,7 +128,7 @@ input::placeholder{
 }
 
 .seriously-red div {
-  background-color: sandybrown;
+  border: solid 1px black;
   padding: 25px;
   border-radius: 10px;
 }
@@ -163,7 +163,7 @@ input::placeholder{
 
 .author-img {
   padding: 60px;
-  background-color: sandybrown;
+  border: solid 1px black;
   border-radius: 15px;
 }
 
@@ -262,7 +262,7 @@ input::placeholder{
 
 .about-smasshing-membership_img {
   padding: 80px;
-  background-color: sandybrown;
+  border: solid 1px black;
   margin-right: 200px;
   border-radius: 5px;
 }
@@ -363,7 +363,7 @@ input::placeholder{
 .smashing-members_img {
   padding: 60px;
   display: inline-block;
-  background-color: sandybrown;
+  border: solid 1px black;
   border-radius: 10px;
 }
 
@@ -453,7 +453,7 @@ input::placeholder{
 .shipping-now_img {
   display: inline-block;
   padding: 100px;
-  background-color: sandybrown;
+  border: solid 1px black;
   border-radius: 10px;
 }
 
@@ -478,7 +478,7 @@ input::placeholder{
 
 .person-of-the-week_img {
   padding: 90px;
-  background-color: sandybrown;
+  border: solid 1px black;
   float: left;
   border-radius: 10px;
   margin-right: 24px;
@@ -494,7 +494,7 @@ input::placeholder{
 
 .community-links_imgs {
   padding: 80px;
-  background-color: sandybrown;
+  border: solid 1px black;
   float: left;
   border-radius: 10px;
   margin-right: 24px;
@@ -549,7 +549,7 @@ input::placeholder{
 
 .featured-smashing-books_img {
   padding: 100px;
-  background-color: sandybrown;
+  border: solid 1px black;
   float: right;
   border-radius: 10px;
   margin-right: 24px;
@@ -621,7 +621,7 @@ input::placeholder{
 
 .email-newsletter_img {
   padding: 150px;
-  background-color: sandybrown;
+  border: solid 1px black;
   border-radius: 15px;
   margin-bottom: 32px;
 }
@@ -652,8 +652,8 @@ input::placeholder{
 .see-all-guides {
   text-align: center;
   margin: 10px 0;
-  //background-color: gray;
 }
+
 .see-all-guides a{
   text-decoration: none;
   font-family: 'Times New Roman', Times, serif;
@@ -665,7 +665,7 @@ input::placeholder{
   width: 100%;
   margin-top: 50px;
   padding-bottom: 100px;
-  background-color: gray;
+  background-color: rgba(0, 0, 0,0.7)
 }
 .main-footer h4{
   font-family: 'Times New Roman', Times, serif;
@@ -723,18 +723,21 @@ font-size: 25px;
   margin-left: 10px;
   display: inline-block;
 }
-.other-footer__links2 li{
+
+.other-footer__links2 li {
   margin-left: 10px;
   display: inline-block;
 }
-.other-footer__links2  {
+
+.other-footer__links2 {
   display: inline-block;
   text-align: center;
 }
-.other-footer__links a{
+
+.other-footer__links a {
   font-family: 'Times New Roman', Times, serif;
 }
 
-.other-footer__links2 a{
+.other-footer__links2 a {
   font-family: 'Times New Roman', Times, serif;
 }
