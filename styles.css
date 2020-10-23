@@ -437,8 +437,7 @@ input::placeholder{
 }
 
 .shipping-now {
-  background-color: gray;
-  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0,0.7);
   color: whitesmoke;
   text-align: center;
   padding: 60px;
@@ -483,7 +482,7 @@ input::placeholder{
 
 .person-of-the-week {
   grid-area: pow;
-  background-color: rgba(0, 0, 0,0.7);
+  background-color: rgba(0, 0, 0,0.6);
   padding: 60px;
   color: whitesmoke;
   font-size: 18px;
