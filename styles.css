@@ -22,13 +22,11 @@ body {
 .main-header {
   grid-area: header-area;
   background-color: rgba(0, 0, 0, 0.5);
-  height: 100px;
   display: grid;
   grid-template-columns: 15% auto 25%;
   grid-template-rows: 100px;
   grid-gap: 10px;
-  grid-template-areas:
-    "logo nav-bar search-bar";
+  grid-template-areas: "logo nav-bar search-bar";
 }
 
 .logo {
@@ -38,11 +36,12 @@ body {
   grid-area: logo;
   border: 1px solid black;
   border-radius: 8px;
-  margin-left: 16px;
+  margin: 4px 16px;
 }
 
 .logo a {
   text-decoration: none;
+  color: whitesmoke;
 }
 
 .nav-bar {
@@ -257,10 +256,6 @@ input::placeholder {
   font-weight: 500;
   text-align: left;
 }
-
-/* .about-smashing-membership_details a {
-  color: white;
-} */
 
 .about-smashing-membership_details ul {
   margin: 30px 60px;
@@ -669,12 +664,6 @@ input::placeholder {
   margin: 10px 0;
 }
 
-/* .see-all-guides a {
-  text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
-  border-bottom: #EA215A 0.35em solid;
-} */
-
 .main-footer {
   grid-area: footer-area;
   width: 100%;
@@ -691,10 +680,6 @@ input::placeholder {
   padding-bottom: 50px;
 }
 
-/* .main-footer a {
-  color: whitesmoke;
-} */
-
 .footer-nav_links {
   width: 95%;
   margin: auto;
@@ -704,10 +689,10 @@ input::placeholder {
 .footer-nav_links li {
   display: inline;
   font-size: 30px;
-  margin:5px;
+  margin: 5px;
 }
 
-.footer-nav_links a {
+.footer-nav_links-a {
   text-decoration: none;
   font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
