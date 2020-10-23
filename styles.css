@@ -258,9 +258,9 @@ input::placeholder {
   text-align: left;
 }
 
-.about-smashing-membership_details a {
+/* .about-smashing-membership_details a {
   color: white;
-}
+} */
 
 .about-smashing-membership_details ul {
   margin: 30px 60px;
@@ -675,7 +675,7 @@ input::placeholder {
   border-bottom: #EA215A 0.35em solid;
 } */
 
-.main-footer  {
+.main-footer {
   grid-area: footer-area;
   width: 100%;
   margin-top: 50px;
@@ -691,9 +691,9 @@ input::placeholder {
   padding-bottom: 50px;
 }
 
-.main-footer a {
+/* .main-footer a {
   color: whitesmoke;
-}
+} */
 
 .footer-nav_links {
   width: 95%;
@@ -714,19 +714,19 @@ input::placeholder {
 }
 
 .italic {
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 15px;
 }
 
-.other-footer_contents  {
-   font-family:'Times New Roman', Times, serif;
-   text-align: center;
-   margin-top: 50px;
+.other-footer_contents {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .other-footer_contents p {
-  line-height:25px;
+  line-height: 25px;
 }
 
 .other-footer__links {
@@ -748,11 +748,6 @@ input::placeholder {
 .other-footer__links2 {
   display: inline-block;
   text-align: center;
-}
-
-.other-footer__links a,
-.other-footer__links2 a {
-  font-family: 'Times New Roman', Times, serif;
 }
 
 .nav-bar a:hover {
