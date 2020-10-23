@@ -37,6 +37,7 @@ justify-content: center;
 grid-area: logo;
 border: 1px solid black;
 border-radius: 8px;
+margin-left: 16px
 }
 .logo a{
   text-decoration: none;
@@ -64,7 +65,8 @@ grid-area: nav-bar;
 .nav-bar ul a{
   margin-right:10px;
   margin-left: 10px;
-  border-radius: 10px;
+  border: 0;
+  border-radius: 16px;
   color:white;
   text-decoration: none;
 }
@@ -85,7 +87,7 @@ input::placeholder{
   margin: auto;
   width:80%;
   height:50%;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 20px;
   text-align-last: center;
 }
@@ -217,6 +219,18 @@ input::placeholder{
 .featured-article_3 {
   grid-area: article3;
   background-color: rgba(0, 0, 0,0.7);
+}
+
+.author_3-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-left: 60px;
+  margin-top: 64px;
+  font-weight: 500;
+  color: white;
+  padding-right: 10px;
 }
 
 .featured-article_4 {
