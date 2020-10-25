@@ -59,4 +59,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/gango-anan/design-teardown/blob/smashing-magazine-homepage/LICENSE) licensed.
+This project is [MIT](https://github.com/gango-anan/design-teardown/blob/master/LICENSE) licensed.
